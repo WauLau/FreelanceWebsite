@@ -1,62 +1,170 @@
 Body{
     font-family: "Roboto", sans-serif;
-    background-color: #5EB1BF;
+    background-color: #96939B;
+    background-image: url(BackGround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.res-circle1 {
-    float: left;
-    width: 20%;
-    border-radius: 50%;
-    background: #bcd6ff;
-    /* NECESSARY FOR TEXT */
-    position: relative;
-    padding: 20;
-    top: 200px;
-  }
-  .res-circle1:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-  .circle-txt1 {
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
-    text-align: center;
-    /* NOT IMPORTANT */
-    font-family: arial, sans-serif;
-    font-size:20px;
-    font-weight: bold;
-  }
-
-.res-circle2 {
-    float: left;
-    width: 20%;
-    border-radius: 50%;
-    background: #bcd6ff;
-    /* NECESSARY FOR TEXT */
-    position: relative;
-    padding: 20;
-    left: 2%;
-    top: 160px;
-  }
-  .res-circle2:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-  .circle-txt2 {
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
-    text-align: center;
-    /* NOT IMPORTANT */
-    font-family: arial, sans-serif;
-    font-size:17px;
-    font-weight: bold;
-  }
-
+/*Responsible for the title */
 #Title{
-    font-size: 150%;
+  font-size : 3vw;
     text-align: center;
-    color: #042A2B;
+    color: #000000;
+    overflow: auto;
 }
+#BOTTOMBAR{
+  position:absolute;
+  bottom:0px;
+}
+.InfoBox1{
+  clear: left;
+  float: left;
+  width: 35%;
+  background: #e8e8e8;
+  border-radius: 2%;
+  position: relative;
+  top: 200px;
+}
+.InfoBox1:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 80%;
+}
+.InfoBox2{
+  width: 35%;
+  background: #e8e8e8;
+  border-radius: 2%;
+  position: relative;
+  float: right;
+  top: 200px;
+}
+.InfoBox2:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 80%;
+}
+.BoxText{
+  object-fit: fill;
+  top: 0px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 1.8vw;
+  position: absolute;
+}
+
+/*Responsible for the text in the circles */
+.box-txt{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 35%;
+  font-family: "Rubik", sans-serif;
+  font-size : 1.1vw;
+  font-weight: bold;
+}
+.box-txt2{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 35%;
+  font-family: "Rubik", sans-serif;
+  font-size : 1.04vw;
+  font-weight: bold;
+}
+.box-txt3{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top:40%;
+  font-family: "Rubik", sans-serif;
+  font-size : 1.15vw;
+  font-weight: bold;
+}
+.box-txt4{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  font-family: "Rubik", sans-serif;
+  font-size : 1.15vw;
+  font-weight: bold;
+}
+
+/*Responsible for the circles shape, and properties */
+.res-box1 {
+    float: left;
+    width: 20%;
+    background: #FC814A;
+    position: relative;
+    top: 80px;
+    margin-left:  2%;
+    border-radius: 50%;
+}
+  .res-box1:after {
+    content: "";
+    display: inline-block;
+    padding-bottom: 100%;
+  }
+.res-box2 {
+  border-radius: 50%;
+    float: left;
+    width: 20%;
+    background: #FC814A;
+    position: relative;
+    padding: 0px;
+    top: 80px;
+    margin-left:  5%;
+  }
+  .res-box2:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.res-box3 {
+  border-radius: 50%;
+    float: left;
+    width: 20%;
+    background: #FC814A;
+    position: relative;
+    padding: 0px;
+    top: 80px;
+    margin-left:  5%;
+  }
+  .res-box3:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.res-box4 {
+  border-radius: 50%;
+    float: left;
+    width: 20%;
+    background: #FC814A;
+    position: relative;
+    padding: 0px;
+    top: 80px;
+    margin-left:  5%;
+  }
+  .res-box4:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  /*Footer (IN DEVELOPMENT)*/
+
+  
+  /*
+  .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #e8e8e8af;
+    color: black;
+    text-align: center;
+  }
+  */
